@@ -3,6 +3,12 @@ package com.qa.opencart.pages;
 public class Login {
 	
 	
+	public void Loginb()
+	{
+		System.out.println("Test");
+	}
+	
+	
 	
 	
 	
