@@ -1,6 +1,13 @@
 package com.qa.opencart.pages;
 
 public class Login {
+
+	public void Loginb()
+	{
+		System.out.println("poo");
+		System.out.println("mesg");
+	}
+	
 	
 	
 	public void Loginb()
