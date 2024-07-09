@@ -6,7 +6,8 @@ public class Browser {
 	
 	public void login()
 	{
-		System.out.println("TOM-abcd");
+		System.out.println("abcd");
+		System.out.println("bhn");
 	}
 
 }
