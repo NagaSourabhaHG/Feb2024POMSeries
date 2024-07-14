@@ -9,6 +9,6 @@ public class AppError {
 	public static final String HEADER_LIST_NOT_FOUND = "==LIST NOT FOUND==";
 	public static final String RESULTS_COUNT_MISMATCHED = "===PRODUCT SEARCH RESULTS MISMATCHED===";
 	public static final String HEADER_NOT_FOUND = "=== HEADER NOT FOUND===";
-	public static final String IMAGES_COUNT_MISMATCHED= "===IMAGES COUNT NOT MATCHED";
+	public static final String IMAGES_COUNT_MISMATCHED= "===IMAGES COUNT NOT MATCHED===";
 
 }
