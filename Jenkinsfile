@@ -67,7 +67,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/NagaSourabhaHG/Feb2024POMSeries'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\souri\eclipse-workspace\Feb2024POMSeries\src\test\resources\testrunners\test_regression.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/test_regression.xml"
                 }
             }
             post {
@@ -128,7 +128,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/NagaSourabhaHG/Feb2024POMSeries'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\souri\eclipse-workspace\Feb2024POMSeries\src\test\resources\testrunners\test_sanity.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/test_sanity.xml"
                 }
                 script {
                     env.SANITY_TESTS_RAN = true
