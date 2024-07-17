@@ -74,6 +74,7 @@ pipeline {
                 failure {
                     script {
                         currentBuild.result = 'FAILURE'
+                        
                     }
                 }
             }
