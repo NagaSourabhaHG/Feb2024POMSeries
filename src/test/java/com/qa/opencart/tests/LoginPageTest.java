@@ -68,5 +68,5 @@ public class LoginPageTest extends BaseTest {
 		accPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertEquals(accPage.getAccPageTitle(), AppConstants.ACCOUNTS_PAGE_TITLE, AppError.TITLE_NOT_FOUND);
 	}
-
+	
 }

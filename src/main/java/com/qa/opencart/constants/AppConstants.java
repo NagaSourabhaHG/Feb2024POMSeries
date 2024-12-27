@@ -17,5 +17,7 @@ public class AppConstants {
 	public static final String ACCOUNT_PAGE_FRACTION_URL = "route=account/account";
 	public static final List<String> ACC_PAGE_HEADERS_LIST = Arrays.asList("My Account", "My Orders",
 			"My Affiliate Account", "Newsletter");
+	
+	public static final String USER_REGISTER_SUCCESS_MSG="Your Account Has Been Created!";
 
 }
